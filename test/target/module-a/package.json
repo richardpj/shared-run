@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "module-b": "../module-b",
+        "lodash": "^4.15.0",
+        "another-dep": "../another-dep"
+    },
+    "devDependencies": {
+        "dev-dep": "../dev-dep"
+    }
+}

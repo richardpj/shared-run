@@ -1,0 +1,5 @@
+{
+    "dependencies": {
+        "@test/module-b": "../module-b"
+    }
+}
