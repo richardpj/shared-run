@@ -1,10 +1,10 @@
 # shared-run
 
-CLI tools that runs a shell command (serially or in parallel) against all detected local shared dependencies based on the
+CLI tool that runs a shell command (serially or in parallel) against all detected local shared dependencies based on the
 package.json in the current working directory. This is especially useful for npm scripts when using npm to modularize a
 project. Other related tools that you may find useful:
-    [npm-run-all](https://www.npmjs.com/package/npm-run-all)
-    [npm-link-shared](https://www.npmjs.com/package/npm-link-shared)
+* [npm-run-all](https://www.npmjs.com/package/npm-run-all)
+* [npm-link-shared](https://www.npmjs.com/package/npm-link-shared)
 
 ## Installation
 
