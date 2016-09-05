@@ -3,7 +3,7 @@ node_js:
   - "6"
   - "5"
   - "4"
-script: non test -cover
+script: npm test -cover
 addons:
     code_climate:
         repo_token: 8ecc46ae6699c0c0af31df958007b27f40ab93c710b3a34d5b87c919ae6a1eca
