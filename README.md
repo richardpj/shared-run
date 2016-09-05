@@ -1,5 +1,7 @@
 # shared-run
 
+![build status](https://api.travis-ci.org/richardpj/shared-run.svg?branch=master)
+
 CLI tool that runs a shell command (serially or in parallel) against all detected local shared dependencies based on the
 package.json in the current working directory. This is especially useful for npm scripts when using npm to modularize a
 project. Other related tools that you may find useful:
