@@ -40,7 +40,7 @@ Useful for testing, this lists detected local dependencies from the current work
 execution order. The order is most deeply nested first then reverse order of appearance in package.json.
 
 You can test out the command line switches (and package.json dependency order) by not specifying a shell command. Once
-you are stisfied with the behaviour you are good to go! 
+you are satisfied with the behaviour you are good to go! 
 
 ```
 shared-run npm install
