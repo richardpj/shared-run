@@ -1,6 +1,6 @@
 # shared-run
 
-![build status](https://api.travis-ci.org/richardpj/shared-run.svg?branch=master) ![Code Climate](https://codeclimate.com/github/richardpj/shared-run/badges/gpa.svg) ![Test Coverage](https://codeclimate.com/github/richardpj/shared-run/badges/coverage.svg) ![Issue Count](https://codeclimate.com/github/richardpj/shared-run/badges/issue_count.svg)
+![Build Status](https://travis-ci.org/richardpj/shared-run.svg?branch=master) ![Test Coverage](https://codeclimate.com/github/richardpj/shared-run/badges/coverage.svg) ![Code Climate](https://codeclimate.com/github/richardpj/shared-run/badges/gpa.svg) ![Issue Count](https://codeclimate.com/github/richardpj/shared-run/badges/issue_count.svg)
 
 CLI tool that runs a shell command (serially or in parallel) against all detected local shared dependencies based on the
 package.json in the current working directory. This is especially useful for npm scripts when using npm to modularize a
