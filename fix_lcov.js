@@ -13,7 +13,7 @@ var match = regex.exec(lcov);
 while (match) {
     var relPath = path.relative(__dirname, match[1]);
     relcov = relcov.replace(match[1], relPath);
-    var match = regex.exec(lcov);
+    match = regex.exec(lcov);
 }
 
 fs.writeFileSync(path.join(__dirname, 'coverage/lcov.info'), relcov, 'utf8');
