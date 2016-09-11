@@ -5,7 +5,6 @@ var findDeps = require('../main').findDeps,
 
 
 describe('#findDeps', function () {
-
     it('should return an empty array when no package.json is found.', function () {
         findDeps('./test/target').should.deep.equal([]);
     });
@@ -15,6 +14,7 @@ describe('#findDeps', function () {
             .should.deep.equal
             ([
                 path.resolve('./test/target/module-c'),
+                path.resolve('./test/target/module-d'),
                 path.resolve('./test/target/another-dep'),
                 path.resolve('./test/target/module-b')
             ]);
@@ -25,6 +25,7 @@ describe('#findDeps', function () {
             .should.deep.equal
             ([
                 path.resolve('./test/target/module-c'),
+                path.resolve('./test/target/module-d'),
                 path.resolve('./test/target/dev-dep'),
                 path.resolve('./test/target/another-dep'),
                 path.resolve('./test/target/module-b')
@@ -44,6 +45,7 @@ describe('#findDeps', function () {
             .should.deep.equal
             ([
                 path.resolve('./test/target/module-c'),
+                path.resolve('./test/target/module-d'),
                 path.resolve('./test/target/module-b')
             ]);
     });

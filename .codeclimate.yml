@@ -4,18 +4,18 @@ engines:
     enabled: true
     config:
       languages:
-      - ruby
       - javascript
-      - python
-      - php
+#      - ruby
+#      - python
+#      - php
   eslint:
     enabled: true
   fixme:
     enabled: true
   nodesecurity:
     enabled: true
-  markdownlint:
-    enabled: true
+#  markdownlint:
+#    enabled: true
 ratings:
   paths:
   - "**.inc"

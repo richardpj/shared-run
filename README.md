@@ -1,3 +1,4 @@
+
 # shared-run
 
 ![Build Status](https://travis-ci.org/richardpj/shared-run.svg?branch=master) ![Test Coverage](https://codeclimate.com/github/richardpj/shared-run/badges/coverage.svg) ![Code Climate](https://codeclimate.com/github/richardpj/shared-run/badges/gpa.svg) ![Issue Count](https://codeclimate.com/github/richardpj/shared-run/badges/issue_count.svg)
@@ -12,10 +13,13 @@ project. Other related tools that you may find useful:
 
 This module is designed to reduce npm script boilerplate and should be used as a project dev dependency (npm scripts can
 run locally installed CLI packages).
+
 ```
 npm install shared-run --save-dev
 ```
+
 ...but if you must you can install it globally.
+
 ```
 npm install shared-run -g
 ```
@@ -45,8 +49,8 @@ you are satisfied with the behaviour you are good to go!
 ```
 shared-run npm install
 ```
+
 This will run npm install with the the current working directory set to the dependency folder (equivalent to ```cd <dependency
 folder> && npm install```) for each detected local dependency in sequential execution order.
 
 ## [LICENSE](LICENSE)
-
