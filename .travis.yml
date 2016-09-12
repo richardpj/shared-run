@@ -8,3 +8,9 @@ addons:
         repo_token: 8ecc46ae6699c0c0af31df958007b27f40ab93c710b3a34d5b87c919ae6a1eca
 after_script:
   - npm run cover
+deploy:
+  provider: npm
+  api_key: d5c7a776-c2c2-4d19-8be3-7685f1f43f98
+  on:
+    branch: master
+
