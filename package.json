@@ -1,7 +1,10 @@
 {
   "name": "shared-run",
-  "version": "1.0.3",
-  "author": "Richard Pierce-Jones",
+  "version": "1.0.4",
+  "author": {
+      "name": "Richard Pierce-Jones",
+      "email": "richardpj@gmail.com"
+      },
   "description": "A nodejs CLI tool for running shell commands against all local npm package dependencies.",
   "keywords": [
     "task",

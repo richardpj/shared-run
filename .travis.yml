@@ -11,6 +11,7 @@ after_script:
 deploy:
   provider: npm
   api_key: d5c7a776-c2c2-4d19-8be3-7685f1f43f98
+  email: richardpj@gmail.com
   on:
     branch: master
 
