@@ -1,7 +1,10 @@
 
 # shared-run
 
-[![Build Status][1]][2] [![Test Coverage][3]][4] [![Code Climate][5]][6] [![Issue Count][7]][6]
+[![Build Status][1]][2] [![Test Coverage][3]][4] [![Code Climate][5]][6]
+[![Issue Count][7]][6] [![Dependencies Status][8]][9] [![DevDependencies Status][13]][14]
+ 
+[![NPM][10]][11] [![NPM][12]][11]
 
 CLI tool that runs a shell command (serially or in parallel) against all detected local shared
 dependencies based on the package.json in the current working directory. This is especially 
@@ -74,3 +77,10 @@ behaviour please don't hesistate to [log an issue](https://github.com/richardpj/
 [5]: https://codeclimate.com/github/richardpj/shared-run/badges/gpa.svg
 [6]: https://codeclimate.com/github/richardpj/shared-run
 [7]: https://codeclimate.com/github/richardpj/shared-run/badges/issue_count.svg
+[8]: https://david-dm.org/richardpj/shared-run/status.svg
+[9]: https://david-dm.org/richardpj/shared-run
+[10]: https://nodei.co/npm/shared-run.png?downloads=true&downloadRank=true&stars=true
+[11]: https://nodei.co/npm/shared-run/
+[12]: https://nodei.co/npm-dl/shared-run.png?months=1&height=3
+[13]: https://david-dm.org/richardpj/shared-run/dev-status.svg
+[14]: https://david-dm.org/richardpj/shared-run?type=dev
