@@ -6,7 +6,6 @@ var path = require('path');
 var lcov = fs.readFileSync(path.join(__dirname, 'coverage/lcov.info'), 'utf8');
 var relcov = lcov;
 var regex = /^SF:(.*)$/gm;
-var pathReplacements = [];
 
 var match = regex.exec(lcov);
 
