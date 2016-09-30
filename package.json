@@ -1,10 +1,10 @@
 {
   "name": "shared-run",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": {
-      "name": "Richard Pierce-Jones",
-      "email": "richardpj@gmail.com"
-      },
+    "name": "Richard Pierce-Jones",
+    "email": "richardpj@gmail.com"
+  },
   "description": "A nodejs CLI tool for running shell commands against all local npm package dependencies.",
   "keywords": [
     "task",
@@ -33,9 +33,7 @@
   },
   "scripts": {
     "test": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec",
-    "cover:fix_lcov": "node fix_lcov.js",
-    "cover:report": "codeclimate-test-reporter < ./coverage/lcov.info",
-    "cover": "run-s cover:*"
+    "cover": "relcov < ./coverage/lcov.info | codeclimate-test-reporter"
   },
   "license": "MIT",
   "dependencies": {
@@ -48,6 +46,6 @@
     "codeclimate-test-reporter": "^0.3.3",
     "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
-    "npm-run-all": "^3.1.0"
+    "relcov": "^1.0.3"
   }
 }
